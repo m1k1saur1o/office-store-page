@@ -1,0 +1,130 @@
+/* Paleta sobria y variables reutilizables del sitio */
+:root {
+  --brand: #0f766e;
+  --brand-dark: #0b5a53;
+  --surface: #f8f9fa;
+  --ink: #1f2933;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--surface);
+  color: var(--ink);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.skip-link {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  z-index: 1080;
+  padding: .5rem .75rem;
+  background-color: #fff;
+  border-radius: .375rem;
+}
+
+/* Botones de marca construidos sobre las variables de Bootstrap 5.3 */
+.btn-brand {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--brand-dark);
+  --bs-btn-hover-border-color: var(--brand-dark);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--brand-dark);
+  --bs-btn-active-border-color: var(--brand-dark);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--brand);
+  --bs-btn-disabled-border-color: var(--brand);
+  --bs-btn-focus-shadow-rgb: 15, 118, 110;
+}
+
+.btn-outline-brand {
+  --bs-btn-color: var(--brand-dark);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--brand);
+  --bs-btn-hover-border-color: var(--brand);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--brand-dark);
+  --bs-btn-active-border-color: var(--brand-dark);
+  --bs-btn-focus-shadow-rgb: 15, 118, 110;
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-right: .35rem;
+  border-radius: .5rem;
+  background-color: var(--brand);
+  color: #fff;
+  font-size: .8rem;
+  letter-spacing: .03em;
+}
+
+.navbar .nav-link.active {
+  color: var(--brand-dark);
+  font-weight: 600;
+}
+
+.hero {
+  background-color: #fff;
+}
+
+/* Tarjetas de producto con altura e imagen uniformes */
+.product-card {
+  border-color: #e9ecef;
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 .5rem 1rem rgba(31, 41, 51, .08);
+}
+
+.product-img {
+  height: 200px;
+  object-fit: contain;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.product-price {
+  color: var(--brand-dark);
+}
+
+.cart-thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: .375rem;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.footer a {
+  color: var(--brand-dark);
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+  text-decoration: underline;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(15, 118, 110, .45);
+  outline-offset: 2px;
+}

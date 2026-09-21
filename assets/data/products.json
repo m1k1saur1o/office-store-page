@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Monitor Curvo 27\" Full HD",
+    "category": "electronica",
+    "price": 189990,
+    "description": "Pantalla curva de 27 pulgadas con panel VA y 75 Hz.",
+    "image": "assets/img/monitor.jpeg",
+    "alt": "Monitor curvo de 27 pulgadas con base blanca"
+  },
+  {
+    "id": 2,
+    "name": "Teclado USB Teclas Grandes",
+    "category": "electronica",
+    "price": 24990,
+    "description": "Teclado alámbrico con teclas de alto contraste y numérico.",
+    "image": "assets/img/keyboard.jpg",
+    "alt": "Teclado negro alámbrico con teclas grandes y blancas"
+  },
+  {
+    "id": 3,
+    "name": "Mouse Óptico USB",
+    "category": "electronica",
+    "price": 9990,
+    "description": "Mouse alámbrico de 1200 DPI con diseño ambidiestro.",
+    "image": "assets/img/mouse.jpg",
+    "alt": "Mouse óptico blanco con rueda de desplazamiento"
+  },
+  {
+    "id": 4,
+    "name": "Audífonos Over-Ear Confort",
+    "category": "electronica",
+    "price": 39990,
+    "description": "Audífonos con almohadillas acolchadas y micrófono integrado.",
+    "image": "assets/img/headphones.svg",
+    "alt": "Ilustración de audífonos over-ear de color gris"
+  },
+  {
+    "id": 5,
+    "name": "Hub USB-C 4 Puertos",
+    "category": "electronica",
+    "price": 17990,
+    "description": "Adaptador compacto con cuatro puertos USB 3.0.",
+    "image": "assets/img/usb-hub.svg",
+    "alt": "Ilustración de hub USB-C con cuatro puertos"
+  },
+  {
+    "id": 6,
+    "name": "Silla Ejecutiva Ergonómica",
+    "category": "accesorios",
+    "price": 159990,
+    "description": "Silla reclinable con apoyo lumbar y cabezal ajustable.",
+    "image": "assets/img/chair.jpeg",
+    "alt": "Silla ejecutiva de cuero café con base giratoria"
+  },
+  {
+    "id": 7,
+    "name": "Lámpara de Escritorio LED",
+    "category": "accesorios",
+    "price": 22990,
+    "description": "Luz LED cálida regulable con bajo consumo energético.",
+    "image": "assets/img/lamp.svg",
+    "alt": "Ilustración de lámpara de escritorio con pantalla cónica"
+  },
+  {
+    "id": 8,
+    "name": "Soporte Elevador para Laptop",
+    "category": "accesorios",
+    "price": 14990,
+    "description": "Base de aluminio que mejora la postura frente al escritorio.",
+    "image": "assets/img/laptop-stand.svg",
+    "alt": "Ilustración de laptop sobre un soporte elevador"
+  }
+]

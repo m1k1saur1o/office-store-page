@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Soporte elevador para laptop">
+  <rect width="800" height="600" fill="#ffffff"/>
+  <rect x="270" y="130" width="260" height="170" rx="10" fill="#334155"/>
+  <rect x="288" y="148" width="224" height="134" rx="6" fill="#e2e8f0"/>
+  <path d="M256 300 L544 300 L588 348 L212 348 Z" fill="#475569"/>
+  <path d="M300 360 L268 470" stroke="#94a3b8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M500 360 L532 470" stroke="#94a3b8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M248 478 L552 478" stroke="#94a3b8" stroke-width="16" stroke-linecap="round"/>
+</svg>

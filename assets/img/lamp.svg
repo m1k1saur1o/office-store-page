@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Lámpara de escritorio LED">
+  <rect width="800" height="600" fill="#ffffff"/>
+  <ellipse cx="400" cy="490" rx="110" ry="22" fill="#475569"/>
+  <rect x="390" y="255" width="20" height="235" fill="#64748b"/>
+  <path d="M296 250 L504 250 L452 130 L348 130 Z" fill="#334155"/>
+  <circle cx="400" cy="268" r="18" fill="#e2e8f0"/>
+</svg>
