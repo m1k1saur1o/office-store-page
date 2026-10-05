@@ -7,11 +7,15 @@
 }
 
 body {
+  background-color: var(--surface);
+  color: var(--ink);
+}
+
+/* Contenedor raíz de React: mantiene el footer al final de la página */
+#root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--surface);
-  color: var(--ink);
 }
 
 main {
